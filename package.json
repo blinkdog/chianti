@@ -1,0 +1,45 @@
+{
+    "name": "chianti",
+    "version": "0.0.1",
+    "description": "HTML5 GUI for winedbg",
+    "keywords": [
+        "browser",
+        "debugger",
+        "fava beans",
+        "html",
+        "html5",
+        "linux",
+        "gui",
+        "wine",
+        "winedbg",
+        "windows"
+    ],
+    "homepage": "https://github.com/blinkdog/chianti",
+    "bugs": "https://github.com/blinkdog/chianti/issues",
+    "license": "AGPL-3.0",
+    "author": "Patrick Meade <veloxi@ticon.net>",
+    "files": [
+        "LICENSE",
+        "README.md",
+        "winedbg.js",
+        "lib",
+        "package.json"
+    ],
+    "main": "index",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/blinkdog/chianti.git"
+    },
+    "dependencies": {
+        "express": "4.13.4",
+        "jade": "1.11.0",
+        "stylus": "0.53.0",
+        "yargs": "4.1.0"
+    },
+    "devDependencies": {
+        "coffee-script": "1.10.0",
+        "istanbul": "0.4.2",
+        "mocha": "2.4.5",
+        "should": "8.2.2"
+    }
+}
